@@ -1,47 +1,45 @@
 atom-text-editor:not(.mini) {
-  &, &::shadow {
-    .syntax--storage {
-      // NOTE|INFO|IDEA|DEBUG|REMOVE|OPTIMIZE|REVIEW|UNDONE|TODO|TASK
-      &.syntax--note,
-      &.syntax--info,
-      &.syntax--idea,
-      &.syntax--debug,
-      &.syntax--remove,
-      &.syntax--optimize,
-      &.syntax--review,
-      &.syntax--undone,
-      &.syntax--todo,
-      &.syntax--task, {
-        color: #66d9ef;
-        font-weight: bold;
-      }
+  .syntax--storage {
+    // NOTE|INFO|IDEA|DEBUG|REMOVE|OPTIMIZE|REVIEW|UNDONE|TODO|TASK
+    &.syntax--note,
+    &.syntax--info,
+    &.syntax--idea,
+    &.syntax--debug,
+    &.syntax--remove,
+    &.syntax--optimize,
+    &.syntax--review,
+    &.syntax--undone,
+    &.syntax--todo,
+    &.syntax--task, {
+      color: #66d9ef;
+      font-weight: bold;
+    }
 
-      // DEPRECATED
-      &.syntax--deprecated {
-        color: #ae81ff;
-        font-weight: bold;
-      }
+    // DEPRECATED
+    &.syntax--deprecated {
+      color: #ae81ff;
+      font-weight: bold;
+    }
 
-      // WARNING|WARN|HACK
-      &.syntax--warning,
-      &.syntax--warn,
-      &.syntax--hack {
-        color: #ffd569;
-        font-weight: bold;
-      }
+    // WARNING|WARN|HACK
+    &.syntax--warning,
+    &.syntax--warn,
+    &.syntax--hack {
+      color: #ffd569;
+      font-weight: bold;
+    }
 
-      // WTF|BUG|ERROR|OMG|ERR|OMFGRLY|BROKEN|REFACTOR
-      &.syntax--wtf,
-      &.syntax--bug,
-      &.syntax--error,
-      &.syntax--omg,
-      &.syntax--err,
-      &.syntax--omfgrly,
-      &.syntax--broken,
-      &.syntax--refactor {
-        color: #f92672;
-        font-weight: bold;
-      }
+    // WTF|BUG|ERROR|OMG|ERR|OMFGRLY|BROKEN|REFACTOR
+    &.syntax--wtf,
+    &.syntax--bug,
+    &.syntax--error,
+    &.syntax--omg,
+    &.syntax--err,
+    &.syntax--omfgrly,
+    &.syntax--broken,
+    &.syntax--refactor {
+      color: #f92672;
+      font-weight: bold;
     }
   }
 }
